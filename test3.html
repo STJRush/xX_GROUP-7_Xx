@@ -3,26 +3,32 @@
   <head>
   <link rel="icon" href="https://www.babygames.com/images/purple/car-games.png">
   <meta charset="utf-8">
-  <title>Tesla Modle 3 information</title>
+  <title>TEST</title>
     <style>
-       body { background-color: rgb(192, 192, 192);}
+    .fullscreen-bg {position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;}
+    .fullscreen-bg__video {position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;}
     </style>
   </head>
   
   <body>
-    <video width="100%" autoplay loop>
+    <div class="fullscreen-bg">
+    <video loop muted autoplay class="fullscreen-bg__video">
     <source src="https://www.tesla.com/ns_videos/Model3_WebsiteHero_Master_D.mp4?20170801" type="video/mp4">
     </video>
-    
     <p>This is a website for information on the Tesla model 3 and the new infotainment system intel has added.</p>
     
     <h2>History</h2>
-    <p>Tesla used to collaborate with NVIDIA to make the information system.
-    <p>
-      
-      <h2>Interesting information</h2>
-        
-    <p>Intel is now making the infotainment system for the Tesla Model 3.</p>
+    
     <p>Tesla used to collaborate with NVIDIA to make the information system.</p>
     <p>Tesla's new model is the Model 3.</p>
     <p>Model 3 achieves 220 miles of range while starting at only 35,000 USD before incentives.</p>
@@ -32,6 +38,5 @@
     <p>Tesla initially wanted the Model 3 to be dubbed the Model E, but that dream was dashed when Ford filed for the Model E trademark.</p>
     <p>In addition to the Model Y, Tesla wants to produce a mini bus and semitruck in the future.</p>
     
-    
   </body>
-</html>
+  </html>
